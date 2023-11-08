@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CashFlow
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -27,3 +28,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# Platzi-Vue-03-CashFlow
+Result of the "Practical Vue.js" course on platzi
+>>>>>>> d286d63acc8024bc649dea29b7384add990d3048
