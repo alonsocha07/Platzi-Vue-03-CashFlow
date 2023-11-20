@@ -18,7 +18,7 @@ const Home = defineAsyncComponent(() => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(import("./components/Home.vue"))
-    }, 1000)
+    }, 300)
   })
 })
 </script>
