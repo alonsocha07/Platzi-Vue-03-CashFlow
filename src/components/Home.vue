@@ -9,7 +9,7 @@
                     graphic
                 </template>
                 <template #action>
-                    action
+                    <Action/>
                 </template>
             </Resume>
         </template>
@@ -28,7 +28,7 @@ import Layout from "./Layout.vue"
 import Header from "./Header.vue"
 import Resume from "./Resume/index.vue"
 import Movements from "./Movements/Index.vue"
-
+import Action from "./Action.vue";
 
 const amount = ref(10000)
 const totalAmount = ref(1800000)
