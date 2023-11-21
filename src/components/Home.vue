@@ -6,7 +6,7 @@
         <template #resume>
             <Resume :label="'Ahorro Total'" :amount="amount" :totalAmount="totalAmount">
                 <template #graphic>
-                    graphic
+                    <Graphic :amounts="amounts"/>
                 </template>
                 <template #action>
                     <Action/>
@@ -29,10 +29,12 @@ import Header from "./Header.vue"
 import Resume from "./Resume/index.vue"
 import Movements from "./Movements/Index.vue"
 import Action from "./Action.vue";
+import Graphic from "./Resume/Graphic.vue";
 
 const amount = ref(10000)
 const totalAmount = ref(1800000)
 
+const amounts= [100, 200, 500, 200, -400, -600 , 100 , 600];
 const movements = [
         {
           id: 1,
@@ -65,4 +67,5 @@ const movements = [
           amount: 1000,
         },
       ];
+  
 </script>
